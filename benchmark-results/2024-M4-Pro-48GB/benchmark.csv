@@ -1,0 +1,19 @@
+scenario,mac_benchmark_tests_clean,mac_benchmark_tests_no_cache,mac_benchmark_tests_warm,mac_benchmark_tests_cold
+version,Gradle 8.11.1,Gradle 8.11.1,Gradle 8.11.1,Gradle 8.11.1
+tasks,testAll,testAll,testAll,testAll
+value,total execution time,total execution time,total execution time,total execution time
+warm-up build #1,161415.13,165292.22,14805.32,14845.99
+warm-up build #2,91496.21,2521.85,1944.64,14112.23
+warm-up build #3,62709.44,1796.89,1771.62,14069.42
+warm-up build #4,61781.22,1714.12,1675.89,13948.93
+warm-up build #5,62833.91,1600.58,1665.82,13829.21
+measured build #1,61163.79,1564.95,1606.20,13844.92
+measured build #2,62293.65,1553.69,1582.70,13929.92
+measured build #3,61999.80,1655.25,1584.21,14071.27
+measured build #4,61984.56,1564.93,1557.97,14100.00
+measured build #5,61308.14,1537.85,1505.66,13945.33
+measured build #6,61338.75,1554.18,1532.78,13808.22
+measured build #7,61631.98,1483.52,1516.48,13866.36
+measured build #8,61794.59,1454.68,1504.84,13918.40
+measured build #9,61186.15,1533.22,1487.17,13875.85
+measured build #10,62320.10,1475.22,1477.83,13964.97
